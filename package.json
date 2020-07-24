@@ -1,0 +1,9 @@
+{
+  "name": "prueba",
+  "private": true,
+  "dependencies": {
+    "chartkick": "^3.2.0",
+    "highcharts": "^8.1.2",
+    "jquery": "^3.5.1"
+  }
+}

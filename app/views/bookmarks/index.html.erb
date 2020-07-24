@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Bookmarks</h1>
+
+<table id="bmark">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Url</th>
+      <th>Category</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render @bookmarks %>
+  </tbody>
+</table>
+
+<br>
+<div id="new-bmark">
+  <%= link_to 'New Bookmark', new_bookmark_path, remote: true %>
+</div>
